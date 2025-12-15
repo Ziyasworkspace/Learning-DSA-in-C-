@@ -10,9 +10,10 @@ int remainder;
 
     cout << bin << endl;
 while(bin>0){
-remainder =bin*10;
+remainder =bin%10;
+answer+=(remainder *power );
 bin/=10;
-answer=(remainder *power );
+
 power*=2;
 
 }
